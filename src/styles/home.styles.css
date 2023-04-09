@@ -18,7 +18,7 @@
     align-items: center;
     height: 10vh;
     background-color: #fff;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
