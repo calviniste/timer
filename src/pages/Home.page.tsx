@@ -25,7 +25,7 @@ const Home = () => {
             <div className="home_item">
                 {
                     HItems.map((hi: any) =>
-                        <HItemi title={hi.title} img={hi.img} desc={hi.desc} position={hi.position} />
+                        <HItemi title={hi.title} img={hi.img} desc={hi.desc} position={hi.position} sh={hi.sh} desc1={hi.desc1} desc2={hi.desc2} desc3={hi.desc3}/>
                     )
                 }
 

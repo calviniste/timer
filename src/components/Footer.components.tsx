@@ -9,7 +9,7 @@ const Footer = () => {
                 <span>timer</span>
                 <ul>
                     <li>
-                        maroua djarengole
+                        maroua djarengol
                     </li>
 
                 </ul>
@@ -54,7 +54,7 @@ const Footer = () => {
                     <NavLink
                             to="/formations"
                             className="footer_link_a">
-                             formation
+                             formations
                         </NavLink>
                        
                     </li>
@@ -62,7 +62,7 @@ const Footer = () => {
                     <NavLink
                             to="/projets"
                             className="footer_link_a">
-                             projet
+                             projets
                         </NavLink>
                     </li>
                    

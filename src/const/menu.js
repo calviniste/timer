@@ -4,7 +4,7 @@ export const Menu=[
         href:"/"
     },
     {
-        name:"service",
+        name:"services",
         href:"/services"
     },    
     {

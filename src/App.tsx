@@ -15,7 +15,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Site />}>
-
             <Route path='services' element={<Service />} />
             <Route path='formations' element={<Formation />} />
             <Route path='projets' element={<Projet />} />

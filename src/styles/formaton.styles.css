@@ -5,7 +5,17 @@
     min-height: 80vh;
     width: 100%;
 }
-
+.projet{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 80vh;
+}
+.projet img{
+    height: 25vh;
+    width: auto;
+}
 .forma {
     display: flex;
     flex-direction: column;
@@ -69,8 +79,53 @@ p {
         justify-content: start;
         flex-direction: column;
         padding: 10px;
-        height: 65vh;
-        width: 65vh;
+        height: 35vh;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .forma_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        text-align: center;
+    }
+
+    .forma_img img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    h4 {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+
+    p {
+        font-size: 12px;
+      
+    }
+}
+@media (max-width:625px) {
+    .formation {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .forma {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+      
+        height: 35vh;
+        width: 100%;
+        background-color: #fff;
     }
 
     .forma_txt {

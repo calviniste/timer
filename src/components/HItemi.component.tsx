@@ -10,7 +10,6 @@ const HItemi=(props:any)=>{
                 {props.title}
                 </h4>
                 <p>{props.desc}</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ea voluptate magni molestias magnam reprehenderit id cumque iste assumenda laboriosam iusto voluptatibus ratione harum, ducimus nulla, facilis corporis quis. Deserunt.</p>
 
             </div>
             
